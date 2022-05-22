@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_inicio" />
+
+        <item
+            android:id="@+id/nav_agregar"
+            android:icon="@drawable/ic_add"
+            android:title="@string/menu_agregar" />
+
+        <item
+            android:id="@+id/nav_editar"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/menu_editar" />
+
+        <item
+            android:id="@+id/nav_eliminar"
+            android:icon="@drawable/ic_delete"
+            android:title="@string/menu_eliminar" />
+
+        <item
+            android:id="@+id/nav_mostrar"
+            android:icon="@drawable/ver1"
+            android:title="@string/menu_mostrarActivos" />
+
+        <item
+            android:id="@+id/nav_mostrarInactivos"
+            android:icon="@drawable/ver2"
+            android:title="@string/menu_mostrarInactivos" />
+
+        <item
+            android:id="@+id/nav_creditos"
+            android:icon="@drawable/cre"
+            android:title="@string/menu_creditos" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/cre"
+            android:title="@string/menu_salir" />
+
+    </group>
+
+</menu>

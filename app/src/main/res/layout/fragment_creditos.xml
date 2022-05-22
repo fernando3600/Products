@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_fondo"
+    tools:context=".ui.creditos.CreditosFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREDITOS"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/universidad"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/especialidad"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alumno"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/materia"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profesor"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clase"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</FrameLayout>

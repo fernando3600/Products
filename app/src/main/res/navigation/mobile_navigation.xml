@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.curso.liga.ui.inicio.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_agregar"
+        android:name="com.curso.liga.ui.agregar.AgregarFragment"
+        android:label="@string/menu_agregar"
+        tools:layout="@layout/fragment_agregar" />
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.curso.liga.ui.buscar.BuscarFragment"
+        android:label="@string/menu_buscar"
+        tools:layout="@layout/fragment_buscar" />
+
+    <fragment
+        android:id="@+id/nav_editar"
+        android:name="com.curso.liga.ui.editar.EditarFragment"
+        android:label="@string/menu_editar"
+        tools:layout="@layout/fragment_editar" />
+
+    <fragment
+        android:id="@+id/nav_eliminar"
+        android:name="com.curso.liga.ui.eliminar.EliminarFragment"
+        android:label="@string/menu_eliminar"
+        tools:layout="@layout/fragment_eliminar" />
+
+    <fragment
+        android:id="@+id/nav_mostrar"
+        android:name="com.curso.liga.ui.mostrar.MostrarFragment"
+        android:label="@string/menu_mostrarActivos"
+        tools:layout="@layout/fragment_mostrar" />
+
+    <fragment
+        android:id="@+id/nav_mostrarInactivos"
+        android:name="com.curso.liga.ui.mostrar.MostrarInactivosFragment"
+        android:label="@string/menu_mostrarInactivos"
+        tools:layout="@layout/fragment_mostrar_inactivos" />
+
+    <fragment
+        android:id="@+id/nav_creditos"
+        android:name="com.curso.liga.ui.creditos.CreditosFragment"
+        android:label="@string/menu_creditos"
+        tools:layout="@layout/fragment_creditos" />
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.curso.liga.ui.salir.Salir"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>

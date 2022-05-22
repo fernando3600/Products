@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Productos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">CASA</string>
+    <string name="menu_agregar">AGREGAR</string>
+    <string name="menu_buscar">BUSCAR</string>
+    <string name="menu_editar">EDITAR</string>
+    <string name="menu_eliminar">ELIMINAR</string>
+    <string name="menu_mostrarActivos">ARTICULOS ACTIVOS</string>
+    <string name="menu_mostrarInactivos">ARTICULOS INACTIVOS</string>
+    <string name="menu_creditos">CREDITOS</string>
+    <string name="menu_salir">CERRAR SESION</string>
+
+    <string name="universidad">Instituto Tecnológico de Toluca</string>
+    <string name="especialidad">Ingeniería en Sistemas Computacionales</string>
+    <string name="alumno">Alumno: Fernando Antonio González</string>
+    <string name="materia">Desarrollo Movil</string>
+    <string name="profesor">Profesora: Rocío Elizabeth Pulido Alba</string>
+    <string name="clase">Enero - Junio </string>
+    <string name="version"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="posiciones">
+        <item>Portero</item>
+        <item>Defensa</item>
+        <item>Medio</item>
+        <item>Delantero</item>
+    </string-array>
+
+    <string-array name="activo">
+        <item>Activo</item>
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+</resources>
